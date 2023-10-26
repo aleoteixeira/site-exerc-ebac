@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetCare- Clinica Veterinária </title>
+  <link rel="stylesheet" href="/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Roboto:wght@300;400;700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>Pet Care</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about">Sobre a loja</a>
+          </li>
+          <li>
+            <a href="#contact">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section id="about">
+    <div class="container">
+      <img class="store-front" src="./images/loja.jpg" alt="faixada da loja gameshop">
+
+      <div>
+        <h2>Sobre a PetCare</h2>
+        <p>A PetCare é uma Clinica Veterinária especializada em cuidados com animais de estimação. Fundada em 2023, a clínica oferece uma ampla gama de serviços, incluindo consultas, exames laboratoriais, cirurgias, vacinas, medicamentos e hospedagem.
+          A clínica conta com uma equipe de profissionais qualificados e equipamentos de última geração para garantir o melhor atendimento aos animais.</p>
+        <section class="servicos">
+          <h3>Nossos serviços</h3>
+          <ul>
+            <li>Consultas</li>
+            <li>Exames laboratoriais</li>
+            <li>Cirurgias</li>
+            <li>Vacinas</li>
+            <li>Medicamentos</li>
+            <li>Hospedagem</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container">
+
+      <div class="contact-methods">
+        <div>
+          <h3>Agende uma consulta</h3>
+          <form>
+            <input type="text" placeholder="Seu nome " required>
+            <input type="email" placeholder="Seu e-mail " required>
+            <input type="tel" placeholder="Seu telefone ">
+            <div class="form-group">
+              <label for="tipo-consulta">Tipo de consulta</label>
+              <select class="form-control" id="tipo-consulta" name="tipo-consulta" required>
+                <option value="consulta">Consulta</option>
+                <option value="Hospedagem">Hospedagem</option>
+                <option value="vacina">Vacina</option>
+                <option value="cirurgia">Cirurgia</option>
+              </select>
+            </div>
+
+            <button type="submit">Agendar</button>
+          </form>
+        </div>
+        <div>
+          <h3>Nos siga nas Redes</h3>
+          <ul class="social-links">
+            <li>
+              <a href="#" title="Siga-nos no Instagram ">
+                <img src="./images/instagram.png" alt="Logo Instagram">
+              </a>
+            </li>
+            <li>
+              <a href="#" title="Siga-nos no Facebook ">
+                <img src="./images/facebook.png" alt="Logo Facebook">
+              </a>
+            </li>
+            <li>
+              <a href="#" title="Visite nosso canal no Youtube ">
+                <img src="./images/youtube.png" alt="Logo Instagram">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3>Nosso Endereco </h3>
+          <p>
+            Endereço: Rua das Flores, 123, São Paulo - SP
+          </p>
+          <h3>Contato </h3>
+          <p> Telefone: (11) 9999-9999 </p>e-mail: PetCareveterinaria@email.com
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <p>
+        Copyright © 2023 Clinica Veterinária PetCaree
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>

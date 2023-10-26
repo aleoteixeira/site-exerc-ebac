@@ -77,8 +77,10 @@ section p {
   margin-bottom: 8px;
 }
 
-.store-front {
+.vet {
   margin-right: 32px;
+  width: 50%;
+  height: 50%;
 }
 
 .social-links img {
